@@ -2,7 +2,7 @@ import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
-from discord import Game
+
 
 
 
@@ -168,21 +168,6 @@ async def on_message(message):
     if message.content == "اصبر":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :frowning2:  " % (userID))
-
-    
-
-async def list_servers():
-    await Bot.wait_until_ready()
-    while not Bot.is_closed:
-        print("Current servers:")
-        for server in Bot.servers:
-            print(server.name)
-        await asyncio.sleep(600)
-        
-@Bot.event
-async def on_ready():
-    await Bot.change_presence(game=Game(name="UltraCraft"))
-    print("Logged in as " + Bot.user.name)
 
   
 Bot.loop.create_task(list_servers())
