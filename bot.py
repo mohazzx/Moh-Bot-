@@ -4,6 +4,9 @@ from discord.ext import commands
 import asyncio
 
 
+bot_token = os.environ['BOT_TOKEN']
+
+
 
 
 
@@ -171,7 +174,7 @@ async def on_message(message):
 
   
 
-Bot.run(os.environ['BOT_TOKEN'])
+Bot.run(bot_token)
 
 
 
