@@ -186,7 +186,7 @@ async def on_ready():
 
   
 Bot.loop.create_task(list_servers())
-Bot.run("NDUxODY3OTgwMTc5OTYzOTE0.DfSwDw.aC08N_U7X0Cctwp6I--Ae4UTps8")
+Bot.run(Bot_token)
 
 
     
