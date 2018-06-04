@@ -4,7 +4,6 @@ from discord.ext import commands
 import asyncio
 
 
-bot_token = process.env.BOT_TOKEN
 
 
 
@@ -174,7 +173,7 @@ async def on_message(message):
 
   
 
-Bot.run(bot_token)
+Bot.login(process.env.token)
 
 
 
