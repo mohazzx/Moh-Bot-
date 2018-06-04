@@ -170,7 +170,7 @@ async def on_message(message):
          await Bot.send_message(message.channel,"  <@%s> :frowning2:  " % (userID))
 
   
-Bot.loop.create_task(list_servers())
+
 Bot.run(Bot_token)
 
 
