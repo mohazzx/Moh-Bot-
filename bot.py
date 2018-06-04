@@ -7,7 +7,7 @@ import asyncio
 
 
 
-
+bot_token = os.environ['BOT_TOKEN']
 
 
 
@@ -173,7 +173,7 @@ async def on_message(message):
 
   
 
-Bot.login(process.env.token)
+Bot.run(bot_token)
 
 
 
