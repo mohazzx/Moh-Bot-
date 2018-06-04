@@ -3,6 +3,8 @@ from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
 import os
+from discord import Game
+
 
 
 
@@ -171,6 +173,12 @@ async def on_message(message):
     if message.content == "اصبر":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :frowning2:  " % (userID))
+        
+        
+@Bot.event
+async def on_ready():
+    await Bot.change_presence(game=Game(name="UltraCraft"))
+    print("Logged in as " + Bot.user.name)
 
   
 
