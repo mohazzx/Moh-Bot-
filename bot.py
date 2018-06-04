@@ -4,7 +4,7 @@ from discord.ext import commands
 import asyncio
 
 
-bot_token = os.environ['BOT_TOKEN']
+bot_token = process.environ['BOT_TOKEN']
 
 
 
