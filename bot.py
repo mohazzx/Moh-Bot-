@@ -171,7 +171,7 @@ async def on_message(message):
 
   
 
-Bot.run(bot_token)
+Bot.run(os.environ["TOKEN"])
 
 
     
