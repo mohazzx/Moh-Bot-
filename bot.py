@@ -206,7 +206,48 @@ async def on_message(message):
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> أستغفر الله " % (userID)) 
          await Bot.send_message(message.channel,"  <@%s> أستغفر الله " % (userID))  
-         await Bot.send_message(message.channel,"  <@%s> أستغفر الله " % (userID))  
+         await Bot.send_message(message.channel,"  <@%s> أستغفر الله " % (userID))
+        
+    if message.content == "هايبكسل":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :persevere:  مالي نفس العبها والله " % (userID)) 
+        
+    if message.content == "ازك":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
+        
+    if message.content == "أزك":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID)) 
+        
+    if message.content == "سيرفر ازك":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
+        
+    if message.content == "azk":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))  
+        
+    if message.content == "AZK":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))   
+        
+    if message.content == "افا":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> ايه والله افا بس " % (userID))
+        
+    if message.content == "احبك":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :blush:  لا تحرجني " % (userID))  
+        
+    if message.content == "بخير الحمدلله":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :heart:  عسى دووم " % (userID)) 
+        
+    if message.content == "اذكار":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :blue_heart:  سبحان الله   والحمد لله ولا إله إلا الله و الحمد لله حمداَ كثيرا" % (userID))    
+        
         
         
 @Bot.event
