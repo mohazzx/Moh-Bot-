@@ -248,6 +248,17 @@ async def on_message(message):
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :blue_heart:  سبحان الله   والحمد لله ولا إله إلا الله و الحمد لله حمداَ كثيرا" % (userID))    
         
+    if message.content == "كيف الحال":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> بخيير الحمد لله , علومك انت " % (userID))  
+        
+    if message.content == "بخير ابشرك":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> عسى دوووم " % (userID))
+        
+    if message.content == "بخير":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> عسى دوووم " % (userID))     
         
         
 @Bot.event
