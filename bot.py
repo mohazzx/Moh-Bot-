@@ -20,7 +20,14 @@ Bot = commands.Bot(command_prefix = "$")
 async def on_ready():
     print("Bot is ready")
 
-              
+@Bot.event
+async def on_member_join(member):
+
+    server = member.server
+
+    fmt = ' {0.mention} :tada:  :heart: اهلا وسهلا نورت سيرفرنا !'
+
+    await Bot.send_message(server, fmt.format(member, server))              
 
 @Bot.event
 async def on_message(message):
