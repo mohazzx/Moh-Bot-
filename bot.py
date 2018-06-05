@@ -182,6 +182,32 @@ async def on_message(message):
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :frowning2:  " % (userID))
         
+    if message.content == "ايش بتسوي":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :upside_down: ولا شي امزح  " % (userID)) 
+        
+    if message.content == "هاي":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :heart_eyes_cat:  هايات     " % (userID))  
+        
+    if message.content == "باي":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :walking:  الله معك     " % (userID)) 
+        
+    if message.content == "شباب":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :no_mouth:  أمر اخوي ايش بغيت   " % (userID))   
+        
+    if message.content == "السلام عليكم":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :heart:  وعليكم السلام ورحمة الله وبركاته " % (userID)) 
+        
+    if message.content == "استغفر الله":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> أستغفر الله " % (userID)) 
+         await Bot.send_message(message.channel,"  <@%s> أستغفر الله " % (userID))  
+         await Bot.send_message(message.channel,"  <@%s> أستغفر الله " % (userID))  
+        
         
 @Bot.event
 async def on_ready():
