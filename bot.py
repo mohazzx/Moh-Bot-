@@ -258,7 +258,35 @@ async def on_message(message):
         
     if message.content == "بخير":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> عسى دوووم " % (userID))     
+         await Bot.send_message(message.channel,"  <@%s> عسى دوووم " % (userID))
+        
+    if message.content == "تعالو ازك":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
+        
+    if message.content == "تعال ازك":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
+      
+    if message.content == "تعال سيرفر ازك":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
+        
+    if message.content == "حياك بسيرفر ازك":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
+        
+    if message.content == "حياك بأزك":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
+        
+    if message.content == "ultracraft":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :heart_eyes: :heart:  احسن سيرفر" % (userID))
+        
+    if message.content == "الترا كرافت":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :heart_eyes: :heart:  احسن سيرفر" % (userID))  
         
         
 @Bot.event
