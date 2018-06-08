@@ -371,7 +371,7 @@ async def on_message(message):
         
 @Bot.event
 async def on_ready():
-    await Bot.change_presence(WATCHING=WATCHING(name="Moh[Bot]"))
+    await Bot.change_presence(game=Game(name="Moh[Bot]"))
     print("Logged in as " + Bot.user.name)
   
 
