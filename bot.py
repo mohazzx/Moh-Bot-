@@ -371,7 +371,8 @@ async def on_message(message):
         
 @Bot.event
 async def on_ready():
-    Bot.user.setActivity("Moh[Bot]", {type: "WATCHING"});
+    await Bot.change_presence(WATCHING=WATCHING(name="Moh[Bot]"))
+    print("Logged in as " + Bot.user.name)
   
 
   
