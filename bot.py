@@ -54,7 +54,7 @@ async def on_message(message):
     
     if message.content == "محمد":
          userID = message.author.id
-         await Bot.send_message(message.channel," <@%s> `:heart:`   " % (userID))
+         await Bot.send_message(message.channel," <@%s> **مشغوول**  :interrobang:  " % (userID))
          
          
         
