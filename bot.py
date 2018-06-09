@@ -373,8 +373,11 @@ async def on_message(message):
         
 @Bot.event
 async def on_ready():
-    await Bot.change_presence(game=Game(name="Moh[Bot]"))
-    print("Logged in as " + Bot.user.name)
+     statuses=["Moh[Bot]","Ultra[Bot]","Mohazzx","~~~","مساء الخير","Zzz","My name is Bot"]
+     updated_game = discord.Game(name = random.choice(statuses))
+     await Bot.change_presence(game = updated_game)
+     print("Bot is ready")
+     print("Logged in as " + Bot.user.name)
   
 
   
