@@ -54,7 +54,7 @@ async def on_message(message):
     
     if message.content == "محمد":
          userID = message.author.id
-         await Bot.send_message(message.channel," <@%s> **مشغوول**  :interrobang:  " % (userID))
+         await Bot.send_message(message.channel," <@%s> :bangbang:  **مشغوول**  " % (userID))
          
          
         
@@ -62,8 +62,8 @@ async def on_message(message):
          
     if message.content == "نايف":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> مشغول " % (userID))
-         await Bot.send_message(message.channel,"  <@%s> :joy:  عنده مقابله وظيفيه " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> **مشغول** " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> :joy: **عنده مقابله وظيفيه** " % (userID))
 
 
     if message.content == "اسحبوني":
@@ -84,7 +84,7 @@ async def on_message(message):
 
     if message.content == "حمد":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :sunglasses:   الريس حمد " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> :sunglasses:  **الريس حمد**  " % (userID))
 
 
     if message.content == "برب":
@@ -108,7 +108,7 @@ async def on_message(message):
     if message.content == "بوت":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> أمرني ويش ف خاطرك " % (userID))
-         await Bot.send_message(message.channel,"  <@%s> تدلل " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> `تدلل` " % (userID))
          await Bot.send_message(message.channel,"  <@%s> :gift:  تبغى هاذا " % (userID))
          await Bot.send_message(message.channel,"  <@%s> :money_with_wings:  أو هاذا " % (userID))
             
