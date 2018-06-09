@@ -365,6 +365,14 @@ async def on_message(message):
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> تعال انت  :gun:  " % (userID))
         
+    if message.content == "كل تبن انت":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :no_entry:   **لا تسب عيب يا بابا** " % (userID))
+        
+    if message.content == "كل زق انت":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :no_entry:   **لا تسب عيب يا بابا** " % (userID))    
+        
         
       
         
