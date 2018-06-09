@@ -62,8 +62,8 @@ async def on_message(message):
          
     if message.content == "نايف":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> **مشغول** " % (userID))
-         await Bot.send_message(message.channel,"  <@%s> :joy: **عنده مقابله وظيفيه** " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> مشغول " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> :joy: عنده مقابلة وظيفية " % (userID))
 
 
     if message.content == "اسحبوني":
