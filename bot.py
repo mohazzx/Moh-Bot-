@@ -47,6 +47,7 @@ async def on_message(message):
         userID = message.author.id
         await Bot.send_message(message.channel,"  <@%s> :raised_hand:  أهلين وسهلين  "% (userID))
         
+        
     if message.content == "كلب":
         userID = message.author.id
         await Bot.send_message(message.channel,"  <@%s> :rage:   لا تسب  " % (userID))
@@ -59,7 +60,8 @@ async def on_message(message):
          
     if message.content == "نايف":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :joy:  كل يووم يوزر جديد " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> مشغول " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> :joy:  عنده مقابله وظيفيه " % (userID))
 
 
     if message.content == "اسحبوني":
