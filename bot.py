@@ -41,7 +41,6 @@ async def on_member_remove(member):
     fmt = '{0.mention} :slight_frown: غادر للاسف'
     channel = member.server.get_channel("453675065876152330")
     await Bot.send_message(channel,fmt.format(member, server))        
-
 @Bot.event
 async def on_message(message):
     if message.content == "هلا":
@@ -55,7 +54,14 @@ async def on_message(message):
     
     if message.content == "محمد":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s>  :heart:  " % (userID))
+         await Bot.send_message(message.channel,"""
+                                                
+                                                <@%s>  :heart: 
+                                                
+                                                 
+                                                """ % (userID))
+         
+         
         
          
          
