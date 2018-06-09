@@ -53,7 +53,7 @@ async def on_message(message):
     
     if message.content == "محمد":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :ComicSansM: :ComicSanso: :ComicSansH: :ComicSansA: :ComicSansM: :ComicSansM: :ComicSansE: :ComicSansD:    " % (userID))
+         await Bot.send_message(message.channel,"  <@%s>  :heart:  " % (userID))
         
          
          
