@@ -53,9 +53,9 @@ async def on_message(message):
     
     if message.content == "محمد":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :thinking:     من محمد " % (userID))
-         await Bot.send_message(message.channel,"  <@%s>  :upside_down:  مافي محمد " % (userID))
-         await Bot.send_message(message.channel,"  <@%s> @Moh  :sparkles:  " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> :ComicSansM: :ComicSanso: :ComicSansH: :ComicSansA: :ComicSansM: :ComicSansM: :ComicSansE: :ComicSansD:    " % (userID))
+        
+         
          
     if message.content == "نايف":
          userID = message.author.id
