@@ -15,7 +15,7 @@ bot_token = os.environ['BOT_TOKEN']
 
 
 
-Bot = commands.Bot(command_prefix = "$")
+Bot = commands.Bot(command_prefix = ">")
 
 @Bot.event
 async def on_ready():
@@ -388,8 +388,25 @@ async def on_ready():
      await Bot.change_presence(game = updated_game)
      print("Bot is ready")
      print("Logged in as " + Bot.user.name)
-  
+        
+        
+      
 
+
+@Bot.command(pass_context=True)
+
+async def say(ctx):
+
+
+    msg_id = ctx.message
+
+    repeat = ctx.message.content[5:]
+
+    await Bot.say(repeat)
+
+    await asyncio.sleep(120)
+
+    await Bot.delete_message(msg_id)
   
 
 Bot.run(bot_token)
