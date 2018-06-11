@@ -15,7 +15,7 @@ bot_token = os.environ['BOT_TOKEN']
 
 
 
-Bot = commands.Bot(command_prefix = ">")
+Bot = commands.Bot(command_prefix = "!")
 
 @Bot.event
 async def on_ready():
