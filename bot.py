@@ -5,6 +5,9 @@ import asyncio
 import os
 from discord import Game
 import random
+import urllib
+import urllib.request
+from discord.utils import get
 
 
 
@@ -55,7 +58,7 @@ async def on_message(message):
 
     if message.content == "محمد":
          msg = discord.Embed(title=' :red_circle:', colour=808080)
-         msg.set_author(name="Moh :", icon_url=Bot.user.avatar_url)
+         msg.set_author(name="Moh", icon_url="http://www9.0zz0.com/2018/06/12/01/785068534.png")
          msg.set_footer( text=' Do Not Disturb')
          await Bot.send_message(message.channel,embed=msg)
          
