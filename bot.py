@@ -407,6 +407,17 @@ async def say(ctx):
     await asyncio.sleep(120)
 
     await Bot.delete_message(msg_id)
+    
+    
+    
+    
+@Bot.event
+
+async def on_message_delete(message):
+
+    fmt = '{0.author.name} :point_down:  مسح الرسالة \n{0.content}'
+
+    await Bot.send_message(message.channel, fmt.format(message))    
   
 
 Bot.run(bot_token)
