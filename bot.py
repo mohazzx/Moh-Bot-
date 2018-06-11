@@ -52,9 +52,12 @@ async def on_message(message):
         userID = message.author.id
         await Bot.send_message(message.channel,"  <@%s> :rage:   لا تسب  " % (userID))
     
+
     if message.content == "محمد":
-         userID = message.author.id
-         await Bot.send_message(message.channel," <@%s> :bangbang:  **مشغوول**  " % (userID))
+         msg = discord.Embed(title=' :red_circle:', colour=808080)
+         msg.set_author(name="Moh :", icon_url=Bot.user.avatar_url)
+         msg.set_footer( text=' Do Not Disturb')
+         await Bot.send_message(message.channel,embed=msg)
          
          
         
