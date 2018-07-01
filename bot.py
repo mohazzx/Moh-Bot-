@@ -379,7 +379,7 @@ async def on_message(message):
         
     if message.content == "كيف حالك":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :no_entry:   الحمدلله اخبارك انت ؟ " % (userID)) 
+         await Bot.send_message(message.channel,"  <@%s>    الحمدلله اخبارك انت ؟ " % (userID)) 
         
         
       
