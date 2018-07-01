@@ -68,8 +68,8 @@ async def on_message(message):
          
     if message.content == "نايف":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> مشغول " % (userID))
-         await Bot.send_message(message.channel,"  <@%s> :joy: عنده مقابلة وظيفية " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> نايف  " % (userID))
+        
 
 
     if message.content == "اسحبوني":
@@ -82,7 +82,7 @@ async def on_message(message):
 
     if message.content == "يحيى":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :free:   اونلاين 24 ساعة ما شاء الله " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> يحيى  " % (userID))
 
     if message.content == "مازن":
          userID = message.author.id
@@ -90,7 +90,7 @@ async def on_message(message):
 
     if message.content == "حمد":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :sunglasses:  **الريس حمد**  " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> :sunglasses:  حمد " % (userID))
 
 
     if message.content == "برب":
@@ -113,10 +113,8 @@ async def on_message(message):
          
     if message.content == "بوت":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> أمرني ويش ف خاطرك " % (userID))
-         await Bot.send_message(message.channel,"  <@%s> `تدلل` " % (userID))
-         await Bot.send_message(message.channel,"  <@%s> :gift:  تبغى هاذا " % (userID))
-         await Bot.send_message(message.channel,"  <@%s> :money_with_wings:  أو هاذا " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> هلا؟ " % (userID))
+         
             
 
     if message.content == "من يلعب؟":
@@ -377,7 +375,11 @@ async def on_message(message):
         
     if message.content == "كل زق انت":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :no_entry:   **لا تسب عيب يا بابا** " % (userID))    
+         await Bot.send_message(message.channel,"  <@%s> :no_entry:   **لا تسب عيب يا بابا** " % (userID)) 
+        
+    if message.content == "كيف حالك":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  <@%s> :no_entry:   الحمدلله اخبارك انت ؟ " % (userID)) 
         
         
       
