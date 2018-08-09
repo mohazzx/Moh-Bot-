@@ -391,7 +391,8 @@ async def on_message(message):
         
 @Bot.event
 async def on_ready():
-     statuses=["Im in cloud 9","To be Or Not To Be","No pain , no gain","eye to eye","Live and learn","Cool","So far so good","Make a long story short"]
+     statuses=["Im in cloud 9","To be Or Not To Be","No pain , no gain","eye to eye","Live and learn","Cool"
+               ,"So far so good","Make a long story short,Sleeping,Nothing,LEVEL 500,is it AM or PM ?,be yourself,1 2 3,"]
      updated_game = discord.Game(name = random.choice(statuses))
      await Bot.change_presence(game = updated_game)
      print("Bot is ready")
