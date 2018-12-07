@@ -32,7 +32,7 @@ async def on_member_join(member):
     server = member.server.default_channel
 
     fmt = ' {0.mention} :tada:  :heart: اهلا وسهلا نورت سيرفرنا !'
-    channel = member.server.get_channel("453675065876152330")
+    channel = member.server.get_channel("520250980734861324")
 
 
     await Bot.send_message(channel, fmt.format(member, server))
