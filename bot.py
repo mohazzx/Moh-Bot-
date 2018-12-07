@@ -42,7 +42,7 @@ async def on_member_remove(member):
     
     server = member.server.default_channel
     fmt = '{0.mention} :slight_frown: غادر للاسف'
-    channel = member.server.get_channel("453675065876152330")
+    channel = member.server.get_channel("520250980734861324")
     await Bot.send_message(channel,fmt.format(member, server))        
 @Bot.event
 async def on_message(message):
@@ -62,14 +62,6 @@ async def on_message(message):
          msg.set_footer( text=' Do Not Disturb')
          await Bot.send_message(message.channel,embed=msg)
          
-         
-        
-         
-         
-    if message.content == "نايف":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> نايف  " % (userID))
-        
 
 
     if message.content == "اسحبوني":
@@ -80,17 +72,6 @@ async def on_message(message):
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :upside_down:  لا  " % (userID))
 
-    if message.content == "يحيى":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> يحيى  " % (userID))
-
-    if message.content == "مازن":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s>  مازن " % (userID))
-
-    if message.content == "حمد":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :sunglasses:  حمد " % (userID))
 
 
     if message.content == "برب":
@@ -235,30 +216,11 @@ async def on_message(message):
     if message.content == "هايبكسل":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :persevere:  مالي نفس العبها والله " % (userID)) 
-        
-    if message.content == "ازك":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
-        
-    if message.content == "أزك":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID)) 
-        
-    if message.content == "سيرفر ازك":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
-        
-    if message.content == "azk":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))  
-        
-    if message.content == "AZK":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))   
+         
         
     if message.content == "افا":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> ايه والله افا بس " % (userID))
+         await Bot.send_message(message.channel,"  <@%s>  " % (userID))
         
     if message.content == "احبك":
          userID = message.author.id
@@ -284,33 +246,6 @@ async def on_message(message):
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> عسى دوووم " % (userID))
         
-    if message.content == "تعالو ازك":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
-        
-    if message.content == "تعال ازك":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
-      
-    if message.content == "تعال سيرفر ازك":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
-        
-    if message.content == "حياك بسيرفر ازك":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
-        
-    if message.content == "حياك بأزك":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :name_badge:  خلاص كفاية سحب اعضاء " % (userID))
-        
-    if message.content == "ultracraft":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :heart_eyes: :heart:  احسن سيرفر" % (userID))
-        
-    if message.content == "الترا كرافت":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :heart_eyes: :heart:  احسن سيرفر" % (userID))
         
     if message.content == "عيال":
          userID = message.author.id
@@ -381,7 +316,9 @@ async def on_message(message):
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s>    الحمدلله اخبارك انت ؟ " % (userID)) 
         
-        
+    if message.content == "هشام":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  مال نزوئ " % (userID))    
       
         
         
