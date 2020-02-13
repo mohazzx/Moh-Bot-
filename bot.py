@@ -51,28 +51,17 @@ async def on_message(message):
         await Bot.send_message(message.channel,"  <@%s> :raised_hand:  أهلين وسهلين  "% (userID))
         
         
-    if message.content == "كلب":
+    if message.content == "احبك":
         userID = message.author.id
-        await Bot.send_message(message.channel,"  <@%s> :rage:   لا تسب  " % (userID))
-    
+        await Bot.send_message(message.channel,"  <@%s> انا اموت فيك ❤️❤️❤️ " % (userID))
 
-    if message.content == "محمد":
-         msg = discord.Embed(title=' :red_circle:', colour=808080)
-         msg.set_author(name="Moh", icon_url="http://www9.0zz0.com/2018/06/12/01/785068534.png")
-         msg.set_footer( text=' Do Not Disturb')
-         await Bot.send_message(message.channel,embed=msg)
-         
-
-
-    if message.content == "اسحبوني":
+    if message.content == "استأذنكم":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :smirk:  والله ما نسحبك  " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> ذنك معك حبي ❤️ " % (userID))
 
     if message.content == "تسمعني":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :upside_down:  لا  " % (userID))
-
-
 
     if message.content == "برب":
          userID = message.author.id
@@ -143,14 +132,14 @@ async def on_message(message):
          await Bot.send_message(message.channel,"  <@%s>   :flag_iq:     " % (userID))
          
 
-    if message.content == "تلعب":
+    if message.content == "اقبل":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :exclamation:  مشغول الحين سوري " % (userID))
 
 
     if message.content == "دقيقة":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :unamused:  أوك بس لا تطول " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> تبي تلعب معي ادفع 2000 نقطه " % (userID))
 
          
     if message.content == "ثواني":
@@ -161,35 +150,26 @@ async def on_message(message):
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :v: مرحبتين " % (userID))
 
-         
-    if message.content == "شرايك ف البوت":
+    if message.content == "انستا":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :heart_eyes: مبدع  " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> https://www.instagram.com/borakan120/ " % (userID))
 
-    if message.content == "holycow":
+    if message.content == "انستا؟":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :thinking: مين هاذا ؟ " % (userID))
-         await Bot.send_message(message.channel,"  <@%s> اها قصدك Therealholycow " % (userID))
-
-    if message.content == "يب":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :cool:  " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> https://www.instagram.com/borakan120/  " % (userID))
          
-    if message.content == "حمار":
+    if message.content == "السماعه؟":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :rage: عيب يا بابا  " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> beyerdynamic DT 990 Pro 250 ohm Headphones, Gray, (459038) https://www.amazon.com/dp/B0011UB9CQ/ref=cm_sw_r_cp_api_i_nUE.DbZG4HY81 " % (userID))
          
-    if message.content == "يا حمار":
+    if message.content == "ايبك؟":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :rage: عيب يا بابا  " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> sha7een " % (userID))
          
     if message.content == "اصبر":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :frowning2:  " % (userID))
         
-    if message.content == "ايش بتسوي":
-         userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :upside_down: ولا شي امزح  " % (userID)) 
         
     if message.content == "هاي":
          userID = message.author.id
@@ -199,9 +179,9 @@ async def on_message(message):
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :walking:  الله معك     " % (userID)) 
         
-    if message.content == "شباب":
+    if message.content == "تحفيز؟":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :no_mouth:  أمر اخوي ايش بغيت   " % (userID))   
+         await Bot.send_message(message.channel,"  <@%s> يوم الحياة تصفعك من يمين اصفعي من يسار ويوم تمردغك منيه مردغهي مناك/ كلمات شاهين   " % (userID))   
         
     if message.content == "السلام عليكم":
          userID = message.author.id
@@ -213,43 +193,43 @@ async def on_message(message):
          await Bot.send_message(message.channel,"  <@%s> :yellow_heart:  أستغفر الله " % (userID))  
          await Bot.send_message(message.channel,"  <@%s> :blue_heart:  أستغفر الله " % (userID))
         
-    if message.content == "هايبكسل":
+    if message.content == "تويتر":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :persevere:  مالي نفس العبها والله " % (userID)) 
+         await Bot.send_message(message.channel,"  <@%s> https://mobile.twitter.com/borakan120/ " % (userID)) 
          
         
-    if message.content == "افا":
+    if message.content == "تويتر؟":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s>  " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> https://mobile.twitter.com/borakan120/ " % (userID))
         
     if message.content == "احبك":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :blush:  لا تحرجني " % (userID))  
         
-    if message.content == "بخير الحمدلله":
+    if message.content == "جافا؟":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :heart:  عسى دووم " % (userID)) 
+         await Bot.send_message(message.channel,"  <@%s> https://www.jgrasp.org/ " % (userID)) 
         
     if message.content == "اذكار":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :blue_heart:  سبحان الله   والحمد لله ولا إله إلا الله و الحمد لله حمداَ كثيرا" % (userID))    
         
-    if message.content == "كيف الحال":
+    if message.content == "جج":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> بخيير الحمد لله , علومك انت " % (userID))  
         
     if message.content == "بخير ابشرك":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> عسى دوووم " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> قود قيم 🙄" % (userID))
         
-    if message.content == "بخير":
+    if message.content == "جيجي":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> عسى دوووم " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> قود قيم 🙄 " % (userID))
         
         
-    if message.content == "عيال":
+    if message.content == "خالد":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :no_mouth:  أمر اخوي ايش بغيت  " % (userID)) 
+         await Bot.send_message(message.channel,"  <@%s> عيون خالد❤️❤️  " % (userID)) 
      
     if message.content == "xD":
          userID = message.author.id
@@ -283,44 +263,63 @@ async def on_message(message):
          await Bot.send_message(message.channel,"  <@%s> :confetti_ball:  من السالمين والغانمين " % (userID))
          await Bot.send_message(message.channel,"  <@%s> :tongue:  هههه تحسبني ما اعرف ارد " % (userID))
             
-    if message.content == "عيد":
+    if message.content == "خالد؟":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s>  :upside_down:  سعيد " % (userID))
+         await Bot.send_message(message.channel,"  <@%s>  https://clips.twitch.tv/CorrectBumblingChipmunkM4xHeh " % (userID))
         
     if message.content == "فلوس":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s> :money_mouth:   " % (userID))
         
-    if message.content == "عساكم من عواده":
+    if message.content == "شاهين":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :heart:   ينعاد علينا وعليك بالخير  " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> :heart:  عيون شاهــيـــن  " % (userID))
         
-    if message.content == "من العايدين":
+    if message.content == "صباح":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :kissing:  من الفايزين  " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> ❤️😉🌅 صباح النور والهنا والسرور " % (userID))
         
         
-    if message.content == "تعالو":
+    if message.content == "قلوب":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> تعال انت  :gun:  " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️  " % (userID))
         
-    if message.content == "كل تبن انت":
+    if message.content == "قوانين؟":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :no_entry:   **لا تسب عيب يا بابا** " % (userID))
+         await Bot.send_message(message.channel,"  <@%s> خلك إنسان " % (userID))
         
-    if message.content == "كل زق انت":
+    if message.content == "كام؟":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  <@%s> :no_entry:   **لا تسب عيب يا بابا** " % (userID)) 
+         await Bot.send_message(message.channel,"  <@%s> LOGTICH 920 PRO " % (userID)) 
         
     if message.content == "كيف حالك":
          userID = message.author.id
          await Bot.send_message(message.channel,"  <@%s>    الحمدلله اخبارك انت ؟ " % (userID)) 
         
-    if message.content == "هشام":
+    if message.content == "كفو":
          userID = message.author.id
-         await Bot.send_message(message.channel,"  مال نزوئ " % (userID))    
-      
+         await Bot.send_message(message.channel,"  كفوك الطيب 😘" % (userID))  
         
+    if message.content == "كود":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  هاذا كود شوب shaheenoman  " % (userID)) 
+        
+    if message.content == "كود؟":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  هاذا كود شوب shaheenoman" % (userID)) 
+            
+    if message.content == "مسابقة؟":
+         userID = message.author.id
+         await Bot.send_message(message.channel,"  المسابقة بتكون كل جمعة الساعة ٢:٠٠ مساءاً بتوقيت مكة! احتمال يكون فيه هدايا!! الله أعلم" % (userID)) 
+            
+    if message.content == "مواصفات؟":
+         userID = message.author.id
+         await Bot.send_message(message.channel," https://clips.twitch.tv/NurturingEphemeralMonitorShazBotstix" % (userID)) 
+        
+        
+    if message.content == "يوتيوب؟":
+         userID = message.author.id
+         await Bot.send_message(message.channel," خالد معنده قناة في اليوتيوب لكن أكثر تواجده في تويتش/ يمكن في المستقبل يسوي متعلم!!" % (userID)) 
         
         
    
@@ -328,9 +327,7 @@ async def on_message(message):
         
 @Bot.event
 async def on_ready():
-     statuses=["Hello World","F1","F2","F5","<p> html </p> ","Cool"
-               , "Sleeping" , "Nothing" , "LEVEL 500" ,
-               "is it AM or PM ?" , "be yourself" , "1 2 3" ," 0100101010101 "]
+     statuses=["Hello World","https://www.twitch.tv/sha7een_ "]
      updated_game = discord.Game(name = random.choice(statuses))
      await Bot.change_presence(game = updated_game)
      print("Bot is ready")
