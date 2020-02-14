@@ -14,7 +14,8 @@ from discord.utils import get
 
 
 
-bot_token = os.environ['BOT_TOKEN']
+bot_token = 'NDUxODY3OTgwMTc5OTYzOTE0.XkZWfw.WxYYR2RAsBiRPL6XAhmPsC2FYAQ'
+#os.environ['BOT_TOKEN']
 
 
 
