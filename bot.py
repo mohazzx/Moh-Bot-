@@ -10,7 +10,7 @@ import urllib.request
 from discord.utils import get
 
 
-bot_token = 'Njc3NzkyMTI2MzQ3NjQwODUy.XkbVDg.tHOiKDt-EyhaxcEl7ANRN5S1-Yw'
+bot_token = 'Njc3NzkyMTI2MzQ3NjQwODUy.XkbY5g.x1Wrleo_9q6bWA5JvI3K-iIugJk'
 
 
 
